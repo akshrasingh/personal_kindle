@@ -27,15 +27,15 @@ class _homeState extends State<home> {
   Widget build(BuildContext context) {
 
       return Scaffold(
-        backgroundColor: Colors.black12,
+        backgroundColor: Colors.black,
         body: Column(children: <Widget>[
           Container(
               decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   boxShadow: [BoxShadow(
-                    color: Colors.red,
-                    spreadRadius: 10,
-                    blurRadius: 20,
+                    color: Colors.green.shade900,
+                    spreadRadius: 30,
+                    blurRadius: 90,
                   ),
                   ]
               ),
@@ -43,24 +43,24 @@ class _homeState extends State<home> {
               margin: EdgeInsets.fromLTRB(20, 270, 0, 0),
               padding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 70.0),
               child: ClipRRect(borderRadius: BorderRadius.circular(200.0),
-                  child: Image.asset('assets/logo1.jpg',
-                      fit: BoxFit.cover, height: 200, width: 200)
+                  child: Image.asset('assets/logo.jpg',
+                      fit:BoxFit.fill, height: 200, width: 200)
               )
           ),
          Center( child: Container(
 
 
-              margin: EdgeInsets.fromLTRB(20, 20, 0, 0),
+              margin: EdgeInsets.fromLTRB(20, 40, 0, 0),
               child: IconButton(
                 onPressed:() {
                   Navigator.push(context,
                     MaterialPageRoute(builder:(context)=> app(),));
                 },
-                icon: Icon(Icons.play_arrow_outlined),
+                icon: Icon(Icons.electric_bolt_outlined),
                 alignment: Alignment.center,
 
                 iconSize: 100,
-                color: Colors.red,)
+                color: Colors.green.shade900,)
 
           )
          )  ] )
