@@ -60,9 +60,9 @@ class _myhomeState extends State<myhome> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-        backgroundColor: Colors.black12,
+        backgroundColor: Colors.black,
         appBar: AppBar(title: Text("                     WELCOME READER "),
-          backgroundColor: Colors.redAccent,
+          backgroundColor: Colors.green.shade900,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
                 bottomRight: Radius.circular(25),
@@ -82,7 +82,7 @@ class _myhomeState extends State<myhome> {
                     shape: BoxShape.circle,
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.redAccent,
+                        color: Colors.green.shade900,
                         spreadRadius: 0.1,
                         blurRadius: 90,
                       )
@@ -95,7 +95,7 @@ class _myhomeState extends State<myhome> {
                           MaterialPageRoute(builder: (context) => romance(),));
                     },
                     child:ClipRRect(   borderRadius: BorderRadius.circular(200),child: Image.asset(
-                      "assets/llove.png", height: 130, width: 130,)
+                      "assets/llove.jpg", height: 130, width: 130,)
 
 
                 )
@@ -109,7 +109,7 @@ class _myhomeState extends State<myhome> {
                 shape: BoxShape.circle,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.redAccent,
+                    color: Colors.green.shade900,
                     blurRadius: 90,
                     spreadRadius: 0.1,
                   )
@@ -135,7 +135,7 @@ class _myhomeState extends State<myhome> {
                 boxShadow: [
                   
                   BoxShadow(
-                    color: Colors.redAccent,
+                    color: Colors.green.shade900,
                     spreadRadius: 0.1,
                     blurRadius: 90,
                   ),
@@ -145,7 +145,7 @@ class _myhomeState extends State<myhome> {
               child:GestureDetector(
                 onTap: (){
                   Navigator.push(context, MaterialPageRoute(builder:(context)=>Fantasy(),));
-                }, child: ClipRRect(borderRadius:BorderRadius.circular(900),child:    Image.asset('assets/fantasyr.png' ,height:130 ,width: 130,),
+                }, child: ClipRRect(borderRadius:BorderRadius.circular(900),child:    Image.asset('assets/fantasy.jpg' ,height:130 ,width: 130,),
               )
             )
             ,
@@ -157,7 +157,7 @@ class _myhomeState extends State<myhome> {
                 shape: BoxShape.circle,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.redAccent,
+                    color: Colors.green.shade900,
                     blurRadius: 100,
                     spreadRadius: 0.1
                   )
@@ -167,7 +167,7 @@ class _myhomeState extends State<myhome> {
                 onTap: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context)=>mythology(),));
                 },
-                child: ClipRRect(borderRadius:BorderRadius.circular(200),child: Image.asset("assets/mytho.png" ,height:130,width: 130,),
+                child: ClipRRect(borderRadius:BorderRadius.circular(200),child: Image.asset("assets/mytho.jpg" ,height:130,width: 130,),
               )
             )
             )
@@ -189,9 +189,9 @@ class _mythologyState extends State<mythology> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black87,
+      backgroundColor: Colors.black,
        appBar: AppBar(
-         backgroundColor: Colors.red
+         backgroundColor: Colors.green.shade900
       ,  title: Text("              MYTHOLOGY "),
     ),
       body:
@@ -210,7 +210,7 @@ class _mythologyState extends State<mythology> {
                        shape: BoxShape.circle,
                        boxShadow: [
                          BoxShadow(
-                             color: Colors.redAccent,
+                             color: Colors.green.shade900,
                              blurRadius: 100,
                              spreadRadius:0.1
                          )
@@ -232,7 +232,7 @@ class _mythologyState extends State<mythology> {
                     shape: BoxShape.circle,
                     boxShadow: [
                       BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 90,
                           spreadRadius: 0.1
                       )
@@ -260,7 +260,7 @@ class _mythologyState extends State<mythology> {
     shape: BoxShape.circle,
     boxShadow: [
     BoxShadow(
-    color: Colors.redAccent,
+    color: Colors.green.shade900,
     blurRadius: 90,
     spreadRadius: 0.1
     )
@@ -282,7 +282,7 @@ class _mythologyState extends State<mythology> {
     shape: BoxShape.circle,
     boxShadow: [
     BoxShadow(
-    color: Colors.redAccent,
+    color: Colors.green.shade900,
     blurRadius: 90,
     spreadRadius: 0.1
     )
@@ -310,7 +310,7 @@ class _mythologyState extends State<mythology> {
                         shape: BoxShape.circle,
                         boxShadow: [
                           BoxShadow(
-                              color: Colors.redAccent,
+                              color: Colors.green.shade900,
                               blurRadius: 90,
                               spreadRadius: 0.1
                           )
@@ -332,7 +332,7 @@ class _mythologyState extends State<mythology> {
                         shape: BoxShape.circle,
                         boxShadow: [
                           BoxShadow(
-                              color: Colors.redAccent,
+                              color: Colors.green.shade900,
                               blurRadius: 90,
                               spreadRadius: 0.1
                           )
@@ -404,9 +404,9 @@ class _romanceState extends State<romance> {
   @override
   Widget build(BuildContext context) {
      return Scaffold(
-       backgroundColor: Colors.black54,
+       backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Colors.green.shade900,
         title: Text("                 ROMANCE"),
       ),
        body:
@@ -421,7 +421,7 @@ class _romanceState extends State<romance> {
                     shape: BoxShape.circle,
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.redAccent,
+                        color: Colors.green.shade900,
                         blurRadius: 100,
                         spreadRadius: 0.1,
                       )
@@ -445,7 +445,7 @@ class _romanceState extends State<romance> {
                         shape: BoxShape.circle,
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.redAccent,
+                            color: Colors.green.shade900,
                             blurRadius: 100,
                             spreadRadius: 0.1,
                           )
@@ -473,7 +473,7 @@ class _romanceState extends State<romance> {
                      shape: BoxShape.circle,
                      boxShadow: [
                        BoxShadow(
-                         color: Colors.redAccent,
+                         color: Colors.green.shade900,
                          blurRadius: 100,
                          spreadRadius: 0.1,
                        )
@@ -499,7 +499,7 @@ class _romanceState extends State<romance> {
                          shape: BoxShape.circle,
                          boxShadow: [
                            BoxShadow(
-                             color: Colors.redAccent,
+                             color: Colors.green.shade900,
                              blurRadius: 100,
                              spreadRadius: 0.1,
                            )
@@ -527,7 +527,7 @@ class _romanceState extends State<romance> {
                      shape: BoxShape.circle,
                      boxShadow: [
                        BoxShadow(
-                         color: Colors.redAccent,
+                         color: Colors.green.shade900,
                          blurRadius: 100,
                          spreadRadius: 0.1,
                        )
@@ -548,7 +548,7 @@ class _romanceState extends State<romance> {
                          shape: BoxShape.circle,
                          boxShadow: [
                            BoxShadow(
-                             color: Colors.redAccent,
+                             color: Colors.green.shade900,
                              blurRadius: 100,
                              spreadRadius: 0.1,
                            )
@@ -668,7 +668,7 @@ class _mysteryState extends State<mystery> {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(title: Text("            Mystery "),
-      backgroundColor:Colors.redAccent,),
+      backgroundColor:Colors.green.shade900,),
       body:
         Column(
           children: [
@@ -681,7 +681,7 @@ class _mysteryState extends State<mystery> {
                     shape: BoxShape.circle,
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.redAccent,
+                        color: Colors.green.shade900,
                         blurRadius: 100,
                         spreadRadius: 0.1,
                       )
@@ -702,7 +702,7 @@ class _mysteryState extends State<mystery> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
@@ -728,7 +728,7 @@ class _mysteryState extends State<mystery> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
@@ -749,7 +749,7 @@ class _mysteryState extends State<mystery> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
@@ -775,7 +775,7 @@ class _mysteryState extends State<mystery> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
@@ -796,7 +796,7 @@ class _mysteryState extends State<mystery> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
@@ -914,7 +914,7 @@ class _FantasyState extends State<Fantasy> {
     return Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(title: Text("            Fantasy "),
-          backgroundColor:Colors.redAccent,),
+          backgroundColor:Colors.green.shade900,),
         body:
         Column(
           children: [
@@ -927,7 +927,7 @@ class _FantasyState extends State<Fantasy> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
@@ -948,7 +948,7 @@ class _FantasyState extends State<Fantasy> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
@@ -974,7 +974,7 @@ class _FantasyState extends State<Fantasy> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
@@ -995,7 +995,7 @@ class _FantasyState extends State<Fantasy> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
@@ -1021,7 +1021,7 @@ class _FantasyState extends State<Fantasy> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
@@ -1042,7 +1042,7 @@ class _FantasyState extends State<Fantasy> {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.redAccent,
+                          color: Colors.green.shade900,
                           blurRadius: 100,
                           spreadRadius: 0.1,
                         )
